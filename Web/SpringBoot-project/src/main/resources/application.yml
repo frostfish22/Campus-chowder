@@ -1,0 +1,21 @@
+spring.mail:
+  port:
+  host:
+  username:
+  password:
+  test-connection: false
+  default-encoding: UTF-8
+  properties:
+    mail:
+      debug: false
+      smtp:
+        timeout: 5000
+        ssl:
+          enable: true
+        socketFactory:
+          port:
+          class:
+        auth: true
+        starttls:
+          enable: true
+          required: true
